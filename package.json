@@ -1,6 +1,6 @@
 {
   "name": "FuncButton",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "FuncButton component, An easy inline-block button",
   "main": "./dist/index.js",
   "files": [
@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "example": "node server.js",
-    "build": "cross-env BABEL_ENV=commonjs babel src --out-dir dist",
+    "build": "npm run build_asset && cross-env BABEL_ENV=commonjs babel src --out-dir dist",
+    "build_asset": "build-asset \"src/css/**/*\" -i src/css -o dist -n css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "build-asset": "^2.0.6",
     "cross-env": "^5.1.3",
     "css-loader": "^0.28.8",
     "node-sass": "^4.7.2",
