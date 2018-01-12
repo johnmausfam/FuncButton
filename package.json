@@ -1,6 +1,6 @@
 {
   "name": "FuncButton",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "FuncButton component, An easy inline-block button",
   "main": "./dist/index.js",
   "files": [
