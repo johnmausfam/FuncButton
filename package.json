@@ -1,5 +1,5 @@
 {
-  "name": "FuncButton",
+  "name": "@SJComponent/FuncButton",
   "version": "1.0.3",
   "description": "FuncButton component, An easy inline-block button",
   "main": "./dist/index.js",
