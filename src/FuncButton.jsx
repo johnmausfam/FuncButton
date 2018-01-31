@@ -43,6 +43,8 @@ class FuncButton extends Component {
 		var r = "c_fnb" + (this.isEnable() ? " enable": "");
 		if(this.props.className)
 			r += " " + this.props.className;
+		if(this.props.buttonStyle)
+			r += " " + this.props.buttonStyle;
 		return r;
 	}
 
@@ -68,7 +70,20 @@ FuncButton.propTypes = {
 	text:PropTypes.string,
 	value:PropTypes.any,
 	onClick:PropTypes.func,
-	iconName:PropTypes.string
+	iconName:PropTypes.string,
+	buttonStyle:PropTypes.string
 }
 
 export default FuncButton
+
+export const FuncButtonIcon = {
+	"Ok":"c_fnb_icon_ok",
+	"cancel":"c_fnb_icon_cancel",
+	"search":"c_fnb_icon_search",
+	"info":"c_fnb_icon_info"
+};
+
+export const FuncButtonStyle = {
+	"submit":"c_fnb_submit",
+	"cancel":"c_fnb_cancel"
+};

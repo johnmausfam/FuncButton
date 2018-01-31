@@ -1,2 +1,3 @@
-import FuncButton from './FuncButton';
+import FuncButton,{FuncButtonIcon,FuncButtonStyle} from './FuncButton';
 export default FuncButton;
+export { FuncButtonIcon, FuncButtonStyle };
