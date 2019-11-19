@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots FuncButton Disable After Click 1`] = `
+<div
+  className="c_fnb enable"
+  onClick={[Function]}
+>
+  <span>
+    測試按鈕
+  </span>
+</div>
+`;
+
+exports[`Storyshots FuncButton Disabled 1`] = `
+<div
+  className="c_fnb"
+  onClick={[Function]}
+>
+  <span>
+    測試按鈕
+  </span>
+</div>
+`;
+
+exports[`Storyshots FuncButton Normal 1`] = `
+<div
+  className="c_fnb enable"
+  onClick={[Function]}
+>
+  <span>
+    測試按鈕
+  </span>
+</div>
+`;
+
+exports[`Storyshots FuncButton With Button Style 1`] = `
+Array [
+  <div
+    className="c_fnb enable c_fnb_submit"
+    onClick={[Function]}
+  >
+    <span>
+      測試按鈕(c_fnb_submit)
+    </span>
+  </div>,
+  <div
+    className="c_fnb c_fnb_submit"
+    onClick={[Function]}
+  >
+    <span>
+      Disable按鈕(c_fnb_submit)
+    </span>
+  </div>,
+  <div
+    className="c_fnb enable c_fnb_cancel"
+    onClick={[Function]}
+  >
+    <span>
+      測試按鈕(c_fnb_cancel)
+    </span>
+  </div>,
+  <div
+    className="c_fnb c_fnb_cancel"
+    onClick={[Function]}
+  >
+    <span>
+      Disable按鈕(c_fnb_cancel)
+    </span>
+  </div>,
+]
+`;
+
+exports[`Storyshots FuncButton With icon 1`] = `
+Array [
+  <div
+    className="c_fnb enable"
+    onClick={[Function]}
+  >
+    <div
+      className="c_fnb_icon c_fnb_icon_ok"
+    />
+    <span>
+      測試按鈕(c_fnb_icon_ok)
+    </span>
+  </div>,
+  <div
+    className="c_fnb"
+    onClick={[Function]}
+  >
+    <div
+      className="c_fnb_icon c_fnb_icon_ok"
+    />
+    <span>
+      Disable按鈕(c_fnb_icon_ok)
+    </span>
+  </div>,
+  <div
+    className="c_fnb enable"
+    onClick={[Function]}
+  >
+    <div
+      className="c_fnb_icon c_fnb_icon_cancel"
+    />
+    <span>
+      測試按鈕(c_fnb_icon_cancel)
+    </span>
+  </div>,
+  <div
+    className="c_fnb"
+    onClick={[Function]}
+  >
+    <div
+      className="c_fnb_icon c_fnb_icon_cancel"
+    />
+    <span>
+      Disable按鈕(c_fnb_icon_cancel)
+    </span>
+  </div>,
+  <div
+    className="c_fnb enable"
+    onClick={[Function]}
+  >
+    <div
+      className="c_fnb_icon c_fnb_icon_search"
+    />
+    <span>
+      測試按鈕(c_fnb_icon_search)
+    </span>
+  </div>,
+  <div
+    className="c_fnb"
+    onClick={[Function]}
+  >
+    <div
+      className="c_fnb_icon c_fnb_icon_search"
+    />
+    <span>
+      Disable按鈕(c_fnb_icon_search)
+    </span>
+  </div>,
+  <div
+    className="c_fnb enable"
+    onClick={[Function]}
+  >
+    <div
+      className="c_fnb_icon c_fnb_icon_info"
+    />
+    <span>
+      測試按鈕(c_fnb_icon_info)
+    </span>
+  </div>,
+  <div
+    className="c_fnb"
+    onClick={[Function]}
+  >
+    <div
+      className="c_fnb_icon c_fnb_icon_info"
+    />
+    <span>
+      Disable按鈕(c_fnb_icon_info)
+    </span>
+  </div>,
+]
+`;
